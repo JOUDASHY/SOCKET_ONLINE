@@ -51,7 +51,7 @@ function broadcastOnlineUsers() {
     });
 }
 
-// Démarrer le serveur sur le port 3002
-server.listen(3002, () => {
-    console.log('WebSocket server for online users started on http://localhost:3002');
+// Démarrer le serveur sur le port 80
+server.listen(80, () => {
+    console.log('WebSocket server for online users started on http://localhost:80');
 });
